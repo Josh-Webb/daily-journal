@@ -6,9 +6,12 @@
     <title>Daily Journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/journal.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Amatic+SC" rel="stylesheet">
 </head>
 <body>
     <h1>Daily Journal</h1>
+    <header></header>
+    <div class="container">
     <form action="">
         <fieldset>
             <label for="journalDate">Date of entry</label>
@@ -23,23 +26,27 @@
 
         <fieldset>
             <label for="journalEntry">Journal Entry</label>
-            <textarea name="journalEntry" rows="10" cols="30" id="journalEntry">Be honest.</textarea>
+            <textarea name="journalEntry" rows="10" cols="60" id="journalEntry">Be honest.</textarea>
         </fieldset>
 
 
         <fieldset>
             <label for="mood">Mood</label>
-            <input list="moods" name="names">
-            <datalist id="moods">
-                <option value="Awesome">
-                <option value="Good">
-                <option value="Fine">
-                <option value="Not great">
-                <option value="Pit of Despair!">
-            </datalist>
+            <select id="moods"> <!--Change them to DMC ranking icons-->
+                <option value="Awesome">Awesome!</option>
+                <option value="Good">Good.</option>
+                <option value="Fine">Fine.</option>
+                <option value="Not great">Not great.</option>
+                <option value="Pit of Despair!">PIT OF DESPAIR!</option>
+            </select>
         </fieldset>
         <input type="submit" value="Submit Journal">
     </form>
+    </container>
+    <footer>
+
+    
+    </footer>
     
 </body>
 </html>
