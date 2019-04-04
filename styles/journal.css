@@ -1,4 +1,33 @@
 fieldset {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    color: #914609;
+    background-color: antiquewhite
+
+}
+body {
+    background-color: #092691;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Bangers', cursive;
+    
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+
+input, option {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
